@@ -24,7 +24,6 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
 
@@ -38,6 +37,7 @@ class FirstFragment : Fragment() {
         }
 
         print("This is new Lines we added somthing new is here as you can seen here ")
+        print("Her is new chnage")
 
     }
 
