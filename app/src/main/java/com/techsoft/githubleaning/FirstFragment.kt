@@ -38,6 +38,8 @@ class FirstFragment : Fragment() {
         }
 
         print("This is new Lines we added somthing new is here as you can seen here ")
+        print("This is in new brach bro ")
+        print("This is new Lines we added somthing new is here as you can seen here ")
 
     }
 
