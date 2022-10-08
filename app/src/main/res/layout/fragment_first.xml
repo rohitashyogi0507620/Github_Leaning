@@ -21,5 +21,12 @@
             app:layout_constraintTop_toTopOf="parent" />
         />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lorem_ipsum"
+            app:layout_constraintTop_toBottomOf="@+id/button_first"
+            tools:layout_editor_absoluteX="16dp"></TextView>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
