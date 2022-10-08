@@ -37,7 +37,7 @@ class FirstFragment : Fragment() {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
 
-        print("This is new Lines")
+        print("This is new Lines we added somthing new is here as you can seen here ")
 
     }
 
