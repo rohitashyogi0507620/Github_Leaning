@@ -24,6 +24,7 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
+
         _binding = FragmentFirstBinding.inflate(inflater, container, false)
         return binding.root
 
@@ -35,6 +36,9 @@ class FirstFragment : Fragment() {
         binding.buttonFirst.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }
+
+        print("This is new Lines")
+
     }
 
     override fun onDestroyView() {
